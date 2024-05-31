@@ -142,8 +142,13 @@ public class Sandwich
             }
 
             description.append("\tSides:\n");
-            for(Side side : getSides()){
-                description.append("\t- ").append(side.getName()).append("\n");
+            if(getSides().isEmpty()){
+                description.append("\tnone");
+            }
+            else {
+                for(Side side : getSides()){
+                    description.append("\t- ").append(side.getName()).append("\n");
+                }
             }
 
 

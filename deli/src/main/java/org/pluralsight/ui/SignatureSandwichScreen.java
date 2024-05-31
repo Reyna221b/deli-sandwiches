@@ -76,7 +76,7 @@ public class SignatureSandwichScreen
             System.out.println("2) Add Toppings");
             System.out.println("3) Remove Toppings");
             System.out.println("4) Toasted");
-            System.out.println("0) Go Back");
+            System.out.println("0) Done");
             System.out.println("=".repeat(30));
             System.out.print("Enter Choice: ");
 
@@ -163,7 +163,6 @@ public class SignatureSandwichScreen
                         }
                     }
                     break;
-
 
                 case 4:
                     if (sandwich.isToasted()) {

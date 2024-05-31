@@ -1,6 +1,5 @@
 package org.pluralsight.ui;
 
-import org.pluralsight.interfaces.SignatureSandwich;
 import org.pluralsight.models.*;
 import org.pluralsight.services.PriceCalculator;
 import org.pluralsight.services.ReceiptFileManager;
@@ -11,9 +10,6 @@ public class MenuScreen
 {
     static final Scanner userInput = new Scanner(System.in);
     private static Order currentOrder;
-    static SandwichScreen sandwichScreen = new SandwichScreen();
-    static SignatureSandwichScreen signatureSandwich;
-    static PriceCalculator priceCalculator;
     static Sandwich sandwich;
     static Drinks drinks;
     static Chips chips;
@@ -71,7 +67,6 @@ public class MenuScreen
         currentOrder = new Order();
         System.out.println();
         System.out.println("🌟🎉 Starting new order!🥪🌟");
-        System.out.println();
     }
 
     public static void displayOrderScreen()
@@ -194,10 +189,10 @@ public class MenuScreen
 
     private static void getChipDescription(Order order)
     {
-        System.out.println("\n*******Chips********* ");
+        System.out.println("*******Chips********* ");
         for(Chips c: order.getChips()){
 
-            System.out.println("\t- " + c.getType());
+            System.out.println("- " + c.getType() + " chips!");
         }
         if(!order.getChips().isEmpty()){
             System.out.println("Chips total:$ " + chipsTotal);
@@ -206,13 +201,18 @@ public class MenuScreen
 
     private static void getDrinkDescription(Order order)
     {
-        System.out.println("\n*******Drinks********* ");
+        boolean drinksPrinted = false;
         for(Drinks drinks1: order.getDrinks())
         {
-            System.out.println("\t- " + drinks1.getSize() + " " + drinks1.getFlavor());;
+            if(drinks1.getPrice() > 0){
+                if(!drinksPrinted){
+                    System.out.println("*******Drinks********* ");
+                    drinksPrinted = true;
+                }
+                System.out.println("- " + drinks1.getSize() + " " + drinks1.getFlavor() + " " + drinks1.getPrice());;
+            }
         }
-        if(!order.getDrinks().isEmpty()){
-
+        if(drinksPrinted){
             System.out.println("Drinks total:$ " + drinkTotal);
         }
     }
@@ -220,14 +220,14 @@ public class MenuScreen
     private static void getSandwichOrderDescription(Order order)
     {
         double total = 0;
-        System.out.println("\n*******Sandwiches********* ");
+        System.out.println("*******Sandwiches********* ");
         for(Sandwich s : order.getSandwiches()) {
             System.out.println(s.getSandwichDescription(order));
             total+= s.calculateTotalCost();
             System.out.println("Sandwich price: " + s.calculateTotalCost());
         }
         if(!order.getSandwiches().isEmpty()){
-            System.out.println("\nSandwiches total:$ " + total);
+            System.out.println("Sandwiches total:$ " + total);
         }
     }
 

@@ -24,9 +24,9 @@ public class ReceiptFileManager
 
         try (FileWriter writer = new FileWriter(filename)) {
             printOrderSummary(writer, order);
-            System.out.println("-".repeat(16));
+            writer.write("-".repeat(30));
             writer.write("\nTotal ORDER PRICE: $" + order.getTotalPrice() + "\n");
-            System.out.println("-".repeat(16));
+            writer.write("-".repeat(30));
         } catch (IOException e) {
             System.out.println("\nError occurred while saving order.");
             e.printStackTrace();

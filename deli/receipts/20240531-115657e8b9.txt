@@ -1,0 +1,61 @@
+---- Order Details ----
+Date: 2024-05-31
+Order Number: e8b9
+
+---- Sandwiches ----
+Sandwich 1: 
+Sandwich: 4in. Price: $5.5
+	Bread Type: White
+	Toasted
+	Toppings:
+	Meat: $ 1.0
+	- Steak
+	- Extra Meat: $ 0.5
+	- Salami
+	Cheese: $ 0.75
+	- Cheddar
+	- Extra Cheese:0.3
+	- Mozzarella
+	Regular: free
+	- Lettuce
+	- Peppers
+	- Onions
+	- Tomatoes
+	Sauce:
+	- Mayo
+	- Mustard
+	- Ketchup
+	Sides:
+	- No Side
+
+Price: $8.05
+
+Sandwich 2: 
+Sandwich: 4in. Price: $5.5
+	Bread Type: White
+	Toasted
+	Toppings:
+	Meat: $ 1.0
+	- Bacon
+	Cheese: $ 0.75
+	- Cheddar
+	Regular: free
+	- Lettuce
+	- Cucumbers
+	Sauce:
+	- Ranch
+	Sides:
+	none
+Price: $7.25
+
+---- Drinks ----
+ 
+Price: $0.0
+
+---- Chips ----
+Regular
+Price: $1.5
+
+------------------------------
+Total ORDER PRICE: $16.8
+------------------------------

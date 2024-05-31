@@ -1,0 +1,60 @@
+---- Order Details ----
+Date: 2024-05-31
+Order Number: 6306
+
+---- Sandwiches ----
+Sandwich 1: 
+Sandwich: 8in. Price: $7.0
+	Bread Type: Wheat
+	Toasted
+	Toppings:
+	Meat: $ 2.0
+	- Steak
+	- Extra Meat: $ 1.0
+	- Ham
+	Cheese: $ 1.5
+	- Gouda
+	- Extra Cheese:0.6
+	- Cheddar
+	Regular: free
+	- Lettuce
+	- Peppers
+	- Onions
+	- Tomatoes
+	Sauce:
+	- Mayo
+	- Mustard
+	- Ketchup
+	Sides:
+	- Au Jus
+
+Price: $12.1
+
+Sandwich 2: 
+Sandwich: 8in. Price: $7.0
+	Bread Type: White
+	Toasted
+	Toppings:
+	Meat: $ 2.0
+	- Bacon
+	Cheese: $ 1.5
+	- Cheddar
+	Regular: free
+	- Lettuce
+	- Cucumbers
+	Sauce:
+	- Ranch
+	Sides:
+
+Price: $10.5
+
+---- Drinks ----
+Small Lemonade
+Price: $2.0
+
+---- Chips ----
+Spicy
+Price: $1.5
+
+
+Total ORDER PRICE: $26.1

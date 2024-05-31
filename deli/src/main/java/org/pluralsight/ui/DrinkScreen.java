@@ -37,9 +37,11 @@ public class DrinkScreen
                 sizeChoice ="Large";
             }
             else if(sizeChoice.equalsIgnoreCase("0")){
-                break;
+                return new Drinks("", "", 0.0);
             }
+
             drinkPrice = PriceCalculator.getDrinkSizePrice(sizeChoice);
+
             if(drinkPrice !=0){
                 break;
             }

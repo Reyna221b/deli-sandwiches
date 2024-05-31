@@ -1,0 +1,30 @@
+---- Order Details ----
+Date: 2024-05-31
+Order Number: 3808
+
+---- Sandwiches ----
+Sandwich 1: 
+Sandwich: 8in. Price: $7.0
+	Bread Type: White
+	Toasted
+	Toppings:
+	Meat: $ 2.0
+	- Bacon
+	Cheese: $ 1.5
+	- Cheddar
+	Regular: free
+	- Lettuce
+	- Tomato
+	Sauce:
+	- Ranch
+	Sides:
+	none
+Price: $10.5
+
+---- Drinks ----
+Small Fountain Drink
+Price: $2.0
+
+------------------------------
+Total ORDER PRICE: $12.5
+------------------------------

@@ -1,0 +1,46 @@
+---- Order Details ----
+Date: 2024-05-31
+Order Number: 243a
+
+---- Sandwiches ----
+Sandwich 1: 
+Sandwich: 4in. Price: $5.5
+	Bread Type: Wheat
+	Toasted
+	Toppings:
+	Meat: $ 1.0
+	- Bacon
+	Cheese: $ 0.75
+	- Cheddar
+	Regular: free
+	- Lettuce
+	- Lettuce
+	- Onions
+	Sauce:
+	- Ranch
+	Sides:
+	none
+Price: $7.25
+
+Sandwich 2: 
+Sandwich: 4in. Price: $5.5
+	Bread Type: Wheat
+	Toasted
+	Toppings:
+	Meat: $ 1.0
+	- Bacon
+	Cheese: $ 0.75
+	- Cheddar
+	Regular: free
+	- Lettuce
+	- Lettuce
+	- Onions
+	Sauce:
+	- Ranch
+	Sides:
+	none
+Price: $7.25
+
+------------------------------
+Total ORDER PRICE: $14.5
+------------------------------
