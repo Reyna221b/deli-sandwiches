@@ -1,0 +1,27 @@
+---- Order Details ----
+Date: 2024-05-31
+Order Number: e6b2
+
+---- Sandwiches ----
+Sandwich 1: 
+Sandwich: 4 in.
+	Bread Type: White
+	Not Toasted
+	Toppings:
+	- Ham
+	- Cheddar
+	- Extra Cheese:
+	- Cheddar
+	- Lettuce
+	- Peppers
+	- Onions
+	Sauce:
+	- Mayo
+	- Mustard
+	- Ketchup
+	Sides:
+
+Price: $5.5
+
+
+Total ORDER PRICE: $5.5

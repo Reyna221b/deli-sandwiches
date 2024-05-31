@@ -1,0 +1,33 @@
+---- Order Details ----
+Date: 2024-05-30
+Order Number: af77
+
+---- Sandwiches ----
+Sandwich: 4 in.
+	Bread Type: White
+	Not Toasted
+	Toppings:
+	- Steak
+	- Extra Meat:
+	- Bacon
+	- Cheddar
+	- No Toppings
+	Sauce:
+	- Mayo
+	- Mustard
+	- Thousand Islands
+	Sides:
+	- No Side
+
+Price: $5.5
+
+---- Drinks ----
+Small Iced Tea
+Price: $2.0
+
+---- Chips ----
+Regular
+Price: $1.5
+
+
+Total Order Price: $9.0

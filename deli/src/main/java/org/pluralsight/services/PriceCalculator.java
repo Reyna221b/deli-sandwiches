@@ -1,97 +1,14 @@
-# the-Deli
+package org.pluralsight.services;
 
+import org.pluralsight.models.*;
 
-### What is the Deli-cious sandwich program?
->This is a Point of Sales (POS) application for DELI-cious, a custom sandwich shop. The application allows customers to place orders for sandwiches, drinks, and chips, and customize their sandwiches with various toppings. The program guides the customer through the ordering process, prompting them to select sandwich size, bread type, toppings, and any additional options such as toasting or extra toppings.
+import java.util.List;
 
->Once the order is complete, the application displays the order details, including a list of sandwiches with toppings and the total cost of the order. The customer can then verify that the order is correct before completing the order. The order details are saved to a receipt file, named by the date and time the order was placed, in a receipts folder.
+public class PriceCalculator {
 
+    private static double meatBasePrice;
+    private static double cheeseBasePrice;
 
-## Process
-> Beginning stages: an idea on how I wanted my display to function/look like. However, it wdid cahnge quite a bit depending on what I wanted to do. 
-
-![diagram](images/diagram.jpg)
-
-
-
-## Screenshots
-![sandwich](images/sandwichAdd.jpg)
-
-![price](images/sandw.jpg)
-
-![cmakemodel](images/addSandwichpt3.jpg)
-
-![year](images/drink.jpg)
-
-![color](images/chips.jpg)
-
-![add](images/signatureSandwich.jpg)
-
-![add](images/signatureSandwichpt2.jpg)
-
-![remove](images/orderdetails.jpg)
-
-
-
-## Code 
-> `Signature Sandwich ` interface made it super easy to have prepopulated sandwiches that could be customized. 
-```java
-    
-    public interface SignatureSandwich
-{
-    List<Toppings> getToppings();
-    void addTopping(Toppings topping);
-    void removeTopping(Toppings topping);
-    String getName();
-
-}
-
-public class BLT extends Sandwich implements SignatureSandwich {
-    public BLT(int size) {
-        super("White", size,true);
-
-        addTopping(new Toppings("Lettuce"));
-        addTopping(new Toppings("Tomato"));
-        addSauce(new Sauce("Ranch"));
-        addMeat(new Meat(Meat.BACON));
-        addCheese(new Cheese(Cheese.CHEDDAR));
-        setToasted(true);
-    }
-
-    public void addMeat(Meat meat) {
-        addTopping(meat);
-    }
-
-    public void addCheese(Cheese cheese) {
-        addTopping(cheese);
-    }
-
-    @Override
-    public List<Toppings> getToppings() {
-        return super.getToppings();
-    }
-
-    @Override
-    public void addTopping(Toppings topping) {
-        super.addTopping(topping);
-    }
-
-    @Override
-    public void removeTopping(Toppings topping) {
-        super.removeTopping(topping);
-    }
-
-    @Override
-    public String getName() {
-        return "BLT";
-    }
-}
-
-```
-
-
->**Interest Piece:** one piece of interest that I really enjoyed coding was price calculator function. It just helped with readablitly and differentiating from the the other classes as this strictly onlt deals with the prices and calculations. 
-```java
 
     public static double calculateToppingPrice(int size, List<Toppings> toppings) {
 
@@ -223,6 +140,4 @@ public class BLT extends Sandwich implements SignatureSandwich {
         }
         return drinkPrice;
     }
-
-
-```
+}

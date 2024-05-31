@@ -1,0 +1,30 @@
+---- Order Details ----
+Date: 2024-05-30
+Order Number: bcd7
+
+---- Sandwiches ----
+Sandwich: 12 in.
+	Bread Type: White
+	Toasted
+	Toppings:
+	- Steak
+	- Lettuce
+	- Peppers
+	- Onions
+	- Tomatoes
+	Sauce:
+	- Mayo
+	- Mustard
+	- Ketchup
+	- Ranch
+	Sides:
+	- No Side
+
+Price: $10.75
+
+---- Chips ----
+BBQ
+Price: $1.5
+
+
+Total Order Price: $12.25
