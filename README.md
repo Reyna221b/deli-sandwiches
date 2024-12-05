@@ -8,7 +8,7 @@
 
 
 ## Process
-> Beginning stages: an idea on how I wanted my display to function/look like. However, it wdid cahnge quite a bit depending on what I wanted to do. 
+> Beginning stages: an idea on how I wanted my display to function/look like. However, it did change quite a bit as I coded
 
 ![diagram](images/diagram.jpg)
 
